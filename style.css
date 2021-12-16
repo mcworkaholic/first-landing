@@ -1,0 +1,287 @@
+
+
+body {
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 1295px;
+    margin: 0;
+    
+    
+}
+.header{
+align-items: center;
+display: flex;
+background-color: #1f2937;
+height: 50px;
+}
+.header-logo{
+margin-left: 10%;
+font-size: 20px;
+color: #f9faf8
+
+}
+li {
+position: relative;
+left: 50vw;
+font-size: 18px; 
+display: inline-block;
+padding: 8px;
+
+}
+
+a {
+text-decoration: none;
+color: #e5e7eb;
+}
+
+.section-2a{
+display: flex;
+flex-shrink: 1;
+padding-top: 35px;
+flex-direction: column;
+background-color: #1f2937;
+height: 290px;
+
+
+}
+.main-text-s2a {
+    padding-left: 10%;
+    width: 30%;
+    font-size: 35px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.sub-text-s2a {
+    padding-left: 10%;
+    width: 40%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    font-weight: bolder;
+    height: 30px;
+    width: 90px;
+    border-radius: 8px;
+  }
+  button.sign-up {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color:white;
+    margin-left: 10%;
+    margin-top: 10px
+  }
+  
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 850px;
+    height: 210px;
+    width: 30%;
+    top: 90px;
+    background-color: #5c5a5e;
+}
+
+.placeholder {
+    color: white;
+
+}
+
+
+.section-three{
+    display: inline-flex;
+    margin: 0;
+    background-color: white;
+    height: 125px;
+    padding-bottom: 15px;
+    
+}
+
+.main-text-s3 {
+    display: flex;
+    position: relative;
+    left: 414px;
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+.boxes {
+display: flex;
+position: relative;
+right: 90px;
+flex-direction: row;
+}
+
+.box1 {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px; 
+    background-color: #f9faf8;
+    border-radius: 9px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 65px;
+    margin-right: 25px;
+}
+
+.box2 {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px; 
+    background-color: #f9faf8;
+    border-radius: 9px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 65px;
+    margin-right: 25px;
+}
+
+.box3 {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px; 
+    background-color: #f9faf8;
+    border-radius: 9px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 65px;
+    margin-right: 25px;
+}
+
+.box4 {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px; 
+    background-color: #f9faf8;
+    border-radius: 9px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 65px;
+}
+
+.subtexts3 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 120px;
+    height: 120px;
+    font-size: 13px;
+    right: 645px;
+    top: 200px;
+    
+}
+
+.subtext1 {
+margin-right: 84px;
+text-align: center;
+}
+
+.subtext2 {
+margin-right: 84px;
+text-align: center;
+}
+.subtext3 {
+margin-right: 84px;
+text-align: center;
+}
+.subtext4 {
+text-align: center;
+}
+
+.section-four {
+    flex-direction: column;
+    margin: 0;
+    height: 275px;
+    background-color: #e5e7eb;
+    position: relative;
+    top: 175px;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+    width: 650px;
+    position: relative;
+    left: 305px;
+    padding-top: 55px;
+}
+
+.quoteperson {
+    position: relative;
+    left: 770px;
+    bottom: 20px;
+    color: #1f2937;
+}
+
+.section-five {
+flex-direction: column;
+margin: 0;
+height: 275px;
+background-color: white;
+position: relative;
+top: 175px;
+}
+
+.callbox {
+position: relative;
+left: 205px;
+top: 75px;
+height: 120px;
+width: 850px;
+border-radius: 9px;
+background-color: #2882f6;
+color: white;
+}
+
+.call2actionhead {
+    font-weight: bold;
+    font-size: 22px;
+}
+.call2actionfoot{
+    font-size: 15px;
+}
+
+.signup2 {
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    background-color: #2882f6;
+    left: 545px;
+    bottom: 35px;
+}
+.call2action{
+position: relative;
+top: 39px;
+left: 103px;
+}
+.footer {
+flex-direction: column;
+color: white;
+margin: 0;
+position: relative;
+height: 60px;
+top: 175px;
+background-color: #1f2937;
+}
+
+.copywrite {
+    position: relative;
+    top: 22px;
+    left: 490px;
+}
+
+
+
+
+
+    
+
